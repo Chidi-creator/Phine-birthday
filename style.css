@@ -165,9 +165,11 @@ body {
 @media (max-width: 768px) {
     .wishes {
         flex-direction: column;
+
     }
     .text-container, .image-container {
-        flex: auto;
+        /* flex: auto; */
+        font-size: smaller;
     }
 }
 
